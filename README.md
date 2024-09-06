@@ -1,8 +1,8 @@
 #react-js-movie
 
-start  : npm start
-build  : npm run build
-result : https://firdaus91.web.id/react-movie/index.html
+- start  : npm start
+- build  : npm run build
+- result : https://firdaus91.web.id/react-movie/index.html
 
 What I learn : 
 - create react app
