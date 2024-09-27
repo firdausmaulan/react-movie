@@ -65,3 +65,37 @@
   font-style: italic;
   font-size: 16px;
 }
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Pagination button {
+  background-color: #007BFF; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 20px; /* Rounded shape */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Pagination button:disabled {
+  background-color: #A9A9A9; /* Gray for disabled buttons */
+  cursor: not-allowed;
+}
+
+.Pagination button:hover:not(:disabled) {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.Pagination span {
+  font-size: 16px;
+  color: white; /* Text color for the page number */
+}
