@@ -3,6 +3,7 @@
 - start  : npm start
 - build  : npm run build
 - result : https://firdaus91.web.id/react-movie/index.html
+- vercel : https://react-movie-7mh59jriv-firdausmaulans-projects.vercel.app/
 
 What I learn : 
 - create react app
